@@ -1,0 +1,54 @@
+About the job
+Company Description
+
+At Fannie Mae, futures are made. The inspiring work we do helps make a home a possibility for millions of homeowners and renters. Every day offers compelling opportunities to impact the future of the housing industry while being part of an inclusive team thriving in an energizing, flexible environment. Here, you will grow your career and help create access to fair, affordable housing finance.
+
+Job Description
+
+As an Assessment of AI/ML Risks - Advisor, you will apply extensive knowledge of advanced modeling techniques, joining a modeling community which creates solutions that use public and proprietary data in all areas of the mortgage finance business including mortgage products and securities, borrower behavior, investment and hedging strategies, residential property valuation, macroeconomic models including of housing prices and interest rates, valuation of financial assets and derivatives, economic capital, and stress testing.
+
+As the Advisor in the Enterprise Model Risk Management group, you will be a senior member of a team which conducts Risk Assessments and Model Validations of externally sourced software applications which include Artificial Intelligence/Machine Learning Model components. You will apply a new AI/ML Risk Management Framework, coordinating with other groups which control technology, legal, and third party risks.
+
+THE IMPACT YOU WILL MAKE
+
+Responsibilities
+
+The Assessment of AI/ML Risks - Advisor role will offer you the flexibility to make each day your own, while working alongside people who care so that you can deliver on the following responsibilities:
+
+Produce Initial Assessment Review Reports on specific AI/ML models to identify how they are proposed to be used and to provide an initial assessment of the level and types of risks which such usage would present.
+Implement an efficient process for this Initial Assessment Review activity, complementing the work of other more junior members of the team, using your more extensive expertise and experience to ensure successful completion of the more challenging aspects of this effort.
+When needed, produce Model Validation Reports in which you evaluate the AI/ML model developer’s design choices and how the results of training (including model diagnostics and performance metrics) influence your professional judgment of whether the model is acceptable for use.
+Be influential and impactful, shaping AI/ML model acquisition priorities by identifying and communicating model limitations in a way which shapes model usage and future model acquisition. 
+
+Qualifications
+
+Minimum Required Experiences
+
+6 years of experience
+Bachelor's degree or equivalent
+
+Desired Experiences
+
+An advanced degree (PhD. or Masters) in a quantitative field such as Computer Science, Statistics, Biostatistics, Economics (with an Econometrics emphasis), Applied Finance, or Applied Mathematics.
+Experience in developing AI/ML models or validating AI/ML models.
+Focused experienced in either Natural Language or Image models.
+Experience at an institution which is an advanced user of AI/ML models.
+Experience with a large financial institution which has Enterprise Risk Management functions that meet the needs of highly regulated financial institutions.
+
+Skills
+
+Understanding the business context which may create a need for AI/ML model software application product solutions.
+Fast-learning, building on a strong foundation of knowledge to continuously learn new techniques for building and managing model risks well.
+Communicating technical subject matter clearly and concisely, both verbally and through well-written communications including Initial Assessment Reviews and Validation Reports.
+
+Tools
+
+Advanced skills in using computer languages often used in AI/ML model development, software deployment, or which facilitate producing technical documents about models. 
+
+Additional Information
+
+The future is what you make it to be. Discover compelling opportunities at careers.fanniemae.com.
+
+Fannie Mae is an Equal Opportunity Employer, which means we are committed to fostering a diverse and inclusive workplace. All qualified applicants will receive consideration for employment without regard to race, religion, national origin, gender, gender identity, sexual orientation, personal appearance, protected veteran status, disability, age, or other legally protected status. For individuals with disabilities who would like to request an accommodation in the application process, email us at careers_mailbox@fanniemae.com.
+
+The hiring range for this role is set forth on each of our job postings located on Fannie Mae's Career Site. Final salaries will generally vary within that range based on factors that include but are not limited to, skill set, depth of experience, certifications, and other relevant qualifications. This position is eligible to participate in a Fannie Mae incentive program (subject to the terms of the program). As part of our comprehensive benefits package, Fannie Mae offers a broad range of Health, Life, Voluntary Lifestyle, and other benefits and perks that enhance an employee’s physical, mental, emotional, and financial well-being. See more here.

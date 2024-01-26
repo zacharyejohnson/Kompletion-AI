@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from .controllers.Interview_controller import InterviewController
+from controllers.interview_controller import InterviewController
 
 app = Flask(__name__)
 interview_controller = InterviewController()
