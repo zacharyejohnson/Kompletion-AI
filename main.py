@@ -54,14 +54,12 @@ def main():
             transcription_area = gr.Textbox()
             question_area = gr.Textbox()
 
-        # Assuming you have a text component to update, replace "text_component" with the actual component
-        # If there's no component to update, you can just use [start_stop_button]
         start_stop_button.click(fn=lambda: toggle_listening(listening), outputs=[start_stop_button])
 
         audio = gr.Audio(streaming=True)
 
         audio.stream(fn=lambda data: process_audio(data, listening, last_question_time, ai, stt), inputs=audio, outputs=[transcription_area, question_area])
-        
+
     demo.launch()
 
 
