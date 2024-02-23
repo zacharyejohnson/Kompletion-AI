@@ -1,0 +1,47 @@
+/* Reset margins and paddings */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Full-screen container with flex display */
+.container {
+    display: flex;
+    flex-direction: row; /* Align children side by side */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevents any overflow from the container */
+}
+
+/* PDF viewer styling */
+.pdf-viewer {
+    width: 50vw; /* Half of the viewport width */
+    height: 100%; /* Full height of its parent */
+    overflow: hidden; /* Hide scrollbars */
+}
+
+.pdf-frame {
+    width: 100%;
+    height: 100%;
+}
+
+/* Chat interface styling */
+.chat-interface {
+    width: 50vw; /* Half of the viewport width */
+    height: 100%; /* Full height of its parent */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+    overflow-y: auto; /* Allow vertical scrolling if content overflows */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack children vertically on smaller screens */
+    }
+    .pdf-viewer, .chat-interface {
+        width: 100vw; /* Full width on smaller screens */
+        height: 50vh; /* Half of the viewport height each */
+    }
+}

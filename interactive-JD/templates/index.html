@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Description Chatbot</title>
+    <!-- Correct path for stylesheet when served by Flask -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Webpage Viewer -->
+        <div class="webpage-viewer">
+            <!-- iframe to embed a webpage -->
+            <iframe src="https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=176655&clientkey=484ED2188E091C199C755AB75A7B7C68" width="1000" height="400" style="border:0;"></iframe>
+        </div>
+
+        <!-- Chat Interface -->
+        <div class="chat-interface">
+            <h1>Ask a question about the job:</h1>
+            <form method="post">
+                <input type="text" id="question" name="question" placeholder="Type your question here">
+                <input type="submit" value="Submit">
+            </form>
+            <!-- Response Section -->
+            <div class="response">
+                <h2>Response:</h2>
+                <p>{{ response }}</p> <!-- Dynamically populated -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

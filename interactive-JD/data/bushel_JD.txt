@@ -1,0 +1,147 @@
+Staff Software Engineer
+Job Details
+Job Location
+Bushel HQ - Fargo, ND
+Remote Type
+Optional Work from Home
+Salary Range
+$115,000.00 - $140,000.00 Salary/year
+Description
+Welcome to Bushel’s corner of the internet. 
+Why does Bushel exist? To ensure humanity and our planet have a secure and healthy future. Bushel believes agriculture is the most important industry on the planet. Agriculture’s physical infrastructure could be considered the greatest advancement in the grain industry in the last century. We believe the agriculture industry needs to build a complementary digital infrastructure - that’s where Bushel comes in. 
+
+ 
+
+Bushel builds software for the grain industry. Our mission is to connect the Grain Industry through digital infrastructure.
+
+ 
+
+Today, we have the largest network of elevators and growers, connecting the most extensive data set in the industry. How have we done that? By offering real value to growers and grain companies through a digital set of tools.
+
+ 
+
+Bushel is headquartered in Fargo, ND - one of the best places to live if you ask us! This position is remote eligible. See below for the list of eligible states. 
+
+ 
+
+How You'll Make An Impact:
+Design, develop, and maintain scalable and high-performance backend systems utilizing distributed event driven service architecture.
+
+Configure and manage message buses for efficient communication between distributed systems and services.
+
+Expand and optimize existing access management and authentication systems to accommodate custom authorization flows and integrate with third party identity providers.
+
+Evolve existing deployment pipelines to increase time to market capabilities.
+
+Ensure the adoption and evolution of organizational security policies.
+
+Implement appropriate code and system testing strategies.
+
+Track and monitor progress through typical Agile processes.
+
+Conduct code reviews, mentor junior developers, and contribute to a culture of continuous improvement. 
+
+Troubleshoot and resolve complex issues in collaboration with operations and support teams.
+
+Collaborate with product partners to provide technical prospective and realistic estimates in establishing team roadmaps.
+
+Provide daily focus on security best practices to ensure data and code protections.
+
+ 
+
+What Bushel Is Looking For:
+Bachelor’s or Master’s degree in Computer Science or related field.
+
+7+ years of proven experience as a Senior Software Engineer with a focus on backend systems.
+
+Experience designing and implementing microservice architecture and associated best practices.
+
+Understanding of event driven design strategies.
+
+In-depth knowledge of message buses (e.g., Apache Pulsar, RabbitMQ) and experience in implementing and managing distributed messaging systems.
+
+Familiarity with API development and scalability.
+
+Expertise in developing and optimizing identity services, including authentication and authorization mechanisms.
+
+Proficient in various programming languages with an emphasis on Java/Kotlin.
+
+Experience with containerization technologies including Kubernetes.
+
+Solid understanding of software development best practices, version control, and CI/CD pipelines.
+
+Experience and knowledge of relational and noSQL database design and implementations.
+
+Ability to implement performant data querying techniques.
+
+Versed in various quality assurance strategies including system, functional, and unit testing.
+
+Strong understanding of security best practices around access and exposure.
+
+Effective problem solving skills, with the ability to analyze complex issues and provide effective solutions.
+
+Excellent communication and collaboration skills.
+
+ 
+
+Bushel Benefits: 
+Competitive BCBS Health Insurance with contribution to premium
+
+Health Savings Account (HSA) with matching dollars  
+
+Flexible Spending Accounts
+
+Dental and Vision Insurance 
+
+Hybrid work environment | Flexible working hours | Work-life balance
+
+Basic Life Insurance and Short-Term Disability paid by Bushel 
+
+Additional Voluntary Life Insurance options and Long-Term Disability  
+
+Voluntary Accident Insurance and Critical Illness Insurance
+
+Flexible (Unlimited) Paid Time Off, 9 Paid Holidays, and 1 Volunteer Day 
+
+Up to 12 weeks of Paid Parental Leave, including foster care and adoption
+
+401(k) Retirement with 4% company match with immediate vesting
+
+Employee Assistance Program and BetterHelp counseling services 
+
+Learning and development and internal mentorship opportunities
+
+ 
+
+Why you won’t want to leave
+The people! You’ve never met more cleverly quirky, hilarious, hardworking folk. Our people are bar none. 
+
+We have startup growth energy and the wild west of opportunity paired with stability in leadership, increased operational strength, stability in financial planning, and bold business strategy. 
+
+Our leadership team is authentic and transparent and just good people.
+
+We’re changing an industry, and you’ll want to stick around to see how it plays out.
+
+ 
+
+We believe diversity, inclusion, and belonging are essential to our team. We are proud to have fostered a one-of-a-kind workplace. We are committed to providing our employees comfort, bringing their authentic selves to work every day. Be you.
+
+ 
+
+Physical Requirements: 
+
+Prolonged periods of sitting or standing at a desk and working on a computer.
+
+ 
+
+Limitations and Disclaimer: 
+
+This job description describes the general nature and level of work performed; it is not an exhaustive list of duties, responsibilities, and required skills. Employees will be required to follow instructions and complete tasks requested by their supervisor. The job description is subject to change. Continued employment remains on an “at-will” basis. 
+
+ 
+
+This position is remote eligible in the following states/districts: AZ, FL, IL, IA, IN, MD, MN, NE, NM, NC, ND, OK, OR, SD, TX, UT, WI
+
+ 
+
+Bushel Inc. provides equal employment opportunities (EEO) to all employees and applicants for employment and prohibits discrimination and harassment of any type based on race, color, religion, age, national origin, genetics, gender (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender identity or expression, status as a protected veteran, status as an individual with a disability, or any other characteristic protected by federal, state or local laws.
