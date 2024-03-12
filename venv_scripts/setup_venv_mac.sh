@@ -18,3 +18,8 @@ cd ..
 poetry install --no-root
 
 echo "Setup complete. Virtual environment is ready and dependencies are installed."
+
+#TROUBLESHOOTING
+# If you get an error about the virtual environment not being found, you may need to run the following command to update your shell configuration:
+# export PATH="/Users/YOURUSERNAME/.local/bin:$PATH"
+# source ~/.zshrc
