@@ -93,7 +93,7 @@ if __name__ == '__main__':
 
     print("\n\ntrying to parse custom attributes\n\n")
 
-    print(parser.parse_attributes_from_resume(["HAS_EXPERIENCE_WITH_JAVA", "HAS_EXPERIENCE_WITH_REACT"]))
+    print(parser.parse_attributes_from_resume(["HAS_EXPERIENCE_WITH_JAVA", "HAS_EXPERIENCE_WITH_REACT", "RATING_1_TO_100"]))
 
 
         
