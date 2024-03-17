@@ -1,0 +1,78 @@
+
+@media screen and (max-width: 1500px) {
+
+  .container {
+      min-height: 84.5vh;
+      display: inline-block;
+      align-items: center;
+      justify-content: flex-start;
+      color: black;
+    }
+
+  .rightHalf {
+    width: 100%;
+    display: grid;
+    margin-top: auto;
+    margin-left: auto;
+
+  }
+  .leftHalf {
+    width: 100%;
+    display: grid;
+    max-height: 80vh;
+    margin-top: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+  }
+
+}
+
+@media screen and (min-width: 1500px) {
+  .container {
+      min-height: 84.5vh;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      color: black;
+    }
+.rightHalf {
+    flex:1;
+    min-width: 700px !important;
+    align-self: flex-end;
+    margin-top: auto;
+    margin-left: auto;
+}
+.leftHalf {
+  
+    flex:1;
+    min-width: 700px !important;
+    max-height: 80vh;
+    align-self: flex-end;
+    margin-top: auto;
+    margin-right:auto;
+    overflow-y: scroll;
+}
+}
+
+.Typed {
+    overflow-y: auto;
+    white-space: nowrap;
+    border-right: 2px solid;
+    max-width: 100%;
+
+    animation: typing 1.5s steps(30,  end)
+     forwards, blinking 1s
+    infinite;
+  }
+  
+  @keyframes typing {
+    from {width: 0}
+    to { width: 100%}
+  }
+
+  @keyframes blinking {
+    0% {border-color: transparent}
+    50% {border-color: white}
+    100% {border-color: transparent}
+  }
