@@ -119,7 +119,7 @@ attributes = [
 if __name__ == "__main__":
     #demo.launch()
 
-    response = parse_resume("Zach Johnson Resume 2024.pdf", attributes)
+    response = parse_resume("Avtonom Martushev Resume 2023.pdf", attributes)
 
     print(response)
 

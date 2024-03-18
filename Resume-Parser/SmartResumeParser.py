@@ -80,11 +80,7 @@ class SmartResumeParser:
             except Exception as e:
                 return {"error": f"Failed to read PDF: {str(e)}"}
             return resume_text
-        
-    
             
-
-        
 if __name__ == '__main__': 
 
     parser = SmartResumeParser("C:\\Users\\NDSU-Prof\\Documents\\GitHub\\Resume-Parser\\Zach Johnson Resume 2024.pdf", API_KEY="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")         
