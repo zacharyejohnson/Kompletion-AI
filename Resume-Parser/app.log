@@ -1,0 +1,73 @@
+2024-03-18 20:14:39,600 - INFO - HTTP Request: POST https://api.openai.com/v1/assistants "HTTP/1.1 200 OK"
+2024-03-18 20:14:40,164 - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-03-18 20:14:40,312 - INFO - Successfully parsed resume text from data\Zach Johnson Resume 2024.pdf
+2024-03-18 20:14:40,327 - INFO - BEGIN (implicit)
+2024-03-18 20:14:40,327 - INFO - SELECT resumes.id AS resumes_id, resumes.fname AS resumes_fname, resumes.lname AS resumes_lname, resumes.email_address AS resumes_email_address, resumes.phone_number AS resumes_phone_number, resumes.resume_text_hash AS resumes_resume_text_hash 
+FROM resumes 
+WHERE resumes.resume_text_hash = ?
+ LIMIT ? OFFSET ?
+2024-03-18 20:14:40,327 - INFO - [generated in 0.00134s] ('154103a9f722c8c2627010affbf8f98445edb564c01827698ab553a3a5b48120', 1, 0)
+2024-03-18 20:14:40,368 - INFO - COMMIT
+2024-03-18 20:20:53,572 - INFO - HTTP Request: POST https://api.openai.com/v1/assistants "HTTP/1.1 200 OK"
+2024-03-18 20:20:53,741 - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-03-18 20:20:53,849 - INFO - Successfully parsed resume text from data\Zach Johnson Resume 2024.pdf
+2024-03-18 20:21:07,215 - INFO - HTTP Request: POST https://api.openai.com/v1/assistants "HTTP/1.1 200 OK"
+2024-03-18 20:21:07,466 - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-03-18 20:21:07,573 - INFO - Successfully parsed resume text from data\Zach Johnson Resume 2024.pdf
+2024-03-18 20:21:07,585 - INFO - BEGIN (implicit)
+2024-03-18 20:21:07,585 - INFO - SELECT resumes.id AS resumes_id, resumes.fname AS resumes_fname, resumes.lname AS resumes_lname, resumes.email_address AS resumes_email_address, resumes.phone_number AS resumes_phone_number, resumes.resume_text_hash AS resumes_resume_text_hash 
+FROM resumes 
+WHERE resumes.resume_text_hash = ?
+ LIMIT ? OFFSET ?
+2024-03-18 20:21:07,585 - INFO - [generated in 0.00117s] ('154103a9f722c8c2627010affbf8f98445edb564c01827698ab553a3a5b48120', 1, 0)
+2024-03-18 20:21:07,585 - INFO - COMMIT
+2024-03-18 20:23:18,635 - INFO - HTTP Request: POST https://api.openai.com/v1/assistants "HTTP/1.1 200 OK"
+2024-03-18 20:23:18,756 - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2024-03-18 20:23:18,872 - INFO - Successfully parsed resume text from data\Zach Johnson Resume 2024.pdf
+2024-03-18 20:23:18,872 - INFO - BEGIN (implicit)
+2024-03-18 20:23:18,888 - INFO - SELECT resumes.id AS resumes_id, resumes.fname AS resumes_fname, resumes.lname AS resumes_lname, resumes.email_address AS resumes_email_address, resumes.phone_number AS resumes_phone_number, resumes.resume_text_hash AS resumes_resume_text_hash 
+FROM resumes 
+WHERE resumes.resume_text_hash = ?
+ LIMIT ? OFFSET ?
+2024-03-18 20:23:18,888 - INFO - [generated in 0.00149s] ('154103a9f722c8c2627010affbf8f98445edb564c01827698ab553a3a5b48120', 1, 0)
+2024-03-18 20:23:18,888 - INFO - SELECT educations.id AS educations_id, educations.institution_name AS educations_institution_name, educations.degree AS educations_degree, educations.field_of_study AS educations_field_of_study, educations.start_date AS educations_start_date, educations.end_date AS educations_end_date, educations.resume_id AS educations_resume_id 
+FROM educations 
+WHERE ? = educations.resume_id
+2024-03-18 20:23:18,888 - INFO - [generated in 0.00127s] (1,)
+2024-03-18 20:23:18,896 - INFO - SELECT experiences.id AS experiences_id, experiences.company_name AS experiences_company_name, experiences.job_title AS experiences_job_title, experiences.start_date AS experiences_start_date, experiences.end_date AS experiences_end_date, experiences.description AS experiences_description, experiences.resume_id AS experiences_resume_id 
+FROM experiences 
+WHERE ? = experiences.resume_id
+2024-03-18 20:23:18,898 - INFO - [generated in 0.00112s] (1,)
+2024-03-18 20:23:18,985 - INFO - Successfully parsed resume text from data\construction-resume-example.pdf
+2024-03-18 20:23:18,985 - INFO - SELECT resumes.id AS resumes_id, resumes.fname AS resumes_fname, resumes.lname AS resumes_lname, resumes.email_address AS resumes_email_address, resumes.phone_number AS resumes_phone_number, resumes.resume_text_hash AS resumes_resume_text_hash 
+FROM resumes 
+WHERE resumes.resume_text_hash = ?
+ LIMIT ? OFFSET ?
+2024-03-18 20:23:18,985 - INFO - [cached since 0.09747s ago] ('5f9d709aef4e712516629ae9f89d867708b99ff27ac0684730b23b695489f10c', 1, 0)
+2024-03-18 20:23:18,985 - INFO - SELECT educations.id AS educations_id, educations.institution_name AS educations_institution_name, educations.degree AS educations_degree, educations.field_of_study AS educations_field_of_study, educations.start_date AS educations_start_date, educations.end_date AS educations_end_date, educations.resume_id AS educations_resume_id 
+FROM educations 
+WHERE ? = educations.resume_id
+2024-03-18 20:23:18,985 - INFO - [cached since 0.09548s ago] (2,)
+2024-03-18 20:23:18,985 - INFO - SELECT experiences.id AS experiences_id, experiences.company_name AS experiences_company_name, experiences.job_title AS experiences_job_title, experiences.start_date AS experiences_start_date, experiences.end_date AS experiences_end_date, experiences.description AS experiences_description, experiences.resume_id AS experiences_resume_id 
+FROM experiences 
+WHERE ? = experiences.resume_id
+2024-03-18 20:23:18,985 - INFO - [cached since 0.09332s ago] (2,)
+2024-03-18 20:23:18,985 - INFO - SELECT resumes.id AS resumes_id, resumes.fname AS resumes_fname, resumes.lname AS resumes_lname, resumes.email_address AS resumes_email_address, resumes.phone_number AS resumes_phone_number, resumes.resume_text_hash AS resumes_resume_text_hash 
+FROM resumes
+2024-03-18 20:23:18,985 - INFO - [generated in 0.00038s] ()
+2024-03-18 20:23:18,993 - INFO - SELECT experiences.id AS experiences_id, experiences.company_name AS experiences_company_name, experiences.job_title AS experiences_job_title, experiences.start_date AS experiences_start_date, experiences.end_date AS experiences_end_date, experiences.description AS experiences_description, experiences.resume_id AS experiences_resume_id 
+FROM experiences 
+WHERE ? = experiences.resume_id
+2024-03-18 20:23:18,993 - INFO - [cached since 0.09666s ago] (1,)
+2024-03-18 20:23:18,993 - INFO - SELECT educations.id AS educations_id, educations.institution_name AS educations_institution_name, educations.degree AS educations_degree, educations.field_of_study AS educations_field_of_study, educations.start_date AS educations_start_date, educations.end_date AS educations_end_date, educations.resume_id AS educations_resume_id 
+FROM educations 
+WHERE ? = educations.resume_id
+2024-03-18 20:23:18,995 - INFO - [cached since 0.1013s ago] (1,)
+2024-03-18 20:23:18,997 - INFO - SELECT experiences.id AS experiences_id, experiences.company_name AS experiences_company_name, experiences.job_title AS experiences_job_title, experiences.start_date AS experiences_start_date, experiences.end_date AS experiences_end_date, experiences.description AS experiences_description, experiences.resume_id AS experiences_resume_id 
+FROM experiences 
+WHERE ? = experiences.resume_id
+2024-03-18 20:23:18,997 - INFO - [cached since 0.1006s ago] (2,)
+2024-03-18 20:23:18,997 - INFO - SELECT educations.id AS educations_id, educations.institution_name AS educations_institution_name, educations.degree AS educations_degree, educations.field_of_study AS educations_field_of_study, educations.start_date AS educations_start_date, educations.end_date AS educations_end_date, educations.resume_id AS educations_resume_id 
+FROM educations 
+WHERE ? = educations.resume_id
+2024-03-18 20:23:18,997 - INFO - [cached since 0.1051s ago] (2,)
