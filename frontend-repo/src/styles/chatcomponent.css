@@ -39,17 +39,14 @@
 .rightHalf {
     flex:1;
     min-width: 700px !important;
-    align-self: flex-end;
-    margin-top: auto;
     margin-left: auto;
 }
 .leftHalf {
   
     flex:1;
+    margin-top: 200px;
     min-width: 700px !important;
     max-height: 80vh;
-    align-self: flex-end;
-    margin-top: auto;
     margin-right:auto;
     overflow-y: scroll;
 }
@@ -64,6 +61,37 @@
     animation: typing 1.5s steps(30,  end)
      forwards, blinking 1s
     infinite;
+  }
+  .btnQuestions {
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    align-items: center;
+    margin: 10px;
+    width: 25%;
+    text-align: center;
+    background-color: white;
+    border: 1px solid hotpink;
+    color: hotpink;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .btnQuestions:hover {
+    background-color: hotpink;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+  }
+
+  .categoryTitle {
+    font-size: 40px;
+    font-weight: 700;
+    width: 45%;
+    position: fixed;
+    margin-top: 50px;
+    top: 0;
+    text-align: center;
   }
   
   @keyframes typing {

@@ -1,28 +1,31 @@
 import "./App.css";
 import "./styles/jobDescription.css";
+import { useState } from "react";
 import ChatComponent from "./components/chatcomponent";
 import JobDescription from "./components/jobDescription";
-import paperTexture from "../src/paper-texture.jpg";
 
 function App() {
-  console.log(paperTexture);
+  const [suggestedQuestions, setSuggestedQuestions] = useState([]);
+  const [category, setCategory] = useState("Home");
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Search Quest AI</h1>
-      </header>
-      <div style={{ backgroundImage: `url(${paperTexture})` }}>
+      <div>
         <div
           className="container"
           style={{
             width: "100%",
-            backgroundColor: "rgb(0, 0, 0, 0.5)",
           }}>
           <div className="leftHalf">
-            <JobDescription />
+            <JobDescription
+              setSuggestedQuestions={setSuggestedQuestions}
+              setCategory={setCategory}
+            />
           </div>
           <div className="rightHalf">
-            <ChatComponent />
+            <ChatComponent
+              suggestedQuestions={suggestedQuestions}
+              category={category}
+            />
           </div>
         </div>
       </div>

@@ -42,7 +42,7 @@
 }
 
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -88,7 +88,7 @@
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
 }
 
