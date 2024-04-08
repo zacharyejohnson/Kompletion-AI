@@ -5,19 +5,17 @@ import "../styles/chatcomponent.css";
 import styled from "styled-components";
 
 const ChatContainer = styled.div`
-  padding: 10px;
-  border: 10px solid #57c4e1;
+  position: fixed;
+  bottom: 0;
+  width: 45%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
   border-radius: 8px;
-  margin: 10px;
-  padding-bottom: 60px;
-  background-color: white;
-  max-height: 580px;
-  min-height: 580px;
-  overflow: scroll;
 `;
 
 const MessageContainer = styled.div`
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 
   &.user {
     text-align: right;
@@ -32,41 +30,32 @@ const MessageContainer = styled.div`
     animation: typing 1.5s steps(30, end) forwards, blinking 1s infinite;
     text-align: left;
     color: #000000;
-    white-space: normal;
   }
 `;
 
 const InputContainer = styled.div`
   display: flex;
-  position: sticky;
-  top: 0;
-  width: 92%;
-  margin-left: 22px;
-  margin-bottom: 20px;
+  margin-top: 20px;
 
   input {
     flex: 1;
     padding: 8px;
     border: 1px solid #ccc;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-    margin-left: -10px;
-    margin-bottom: -10px;
+    border-radius: 4px;
+    margin-right: 10px;
   }
 
   button {
-    background-color: #57c4e1;
+    background-color: #007bff;
     color: #fff;
     padding: 8px 12px;
     border: none;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    margin-bottom: -10px;
+    border-radius: 4px;
     cursor: pointer;
   }
 `;
 
-const ChatComponent = () => {
+const ChatComponent = ({ suggestedQuestions, category }) => {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]);
 
@@ -74,9 +63,8 @@ const ChatComponent = () => {
     setInput(e.target.value);
   };
 
-  const handleSendMessage = async () => {
+  const handleSendMessage = async (isSuggestedQuestion, suggestedQuestion) => {
     // Make a request to the ChatGPT API with the user input
-    //   const apiKey = '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';
     const openai = new OpenAI({
       apiKey: process.env.REACT_APP_OPENAI_API_KEY,
       dangerouslyAllowBrowser: true,
@@ -88,7 +76,10 @@ const ChatComponent = () => {
       const chatCompletion = await openai.chat.completions.create({
         messages: [
           { role: "system", content: "You are a helpful assistant." },
-          { role: "user", content: input },
+          {
+            role: "user",
+            content: isSuggestedQuestion ? suggestedQuestion : input,
+          },
         ],
         model: "gpt-3.5-turbo",
       });
@@ -111,14 +102,18 @@ const ChatComponent = () => {
 
   return (
     <>
-      <InputContainer
-        onKeyUp={(e) => {
-          if (e.key === "Enter") handleSendMessage();
-        }}>
-        <input type="text" value={input} onChange={handleInputChange} />
-        <button onClick={handleSendMessage}>Send</button>
-      </InputContainer>
+      <div className="categoryTitle">Category: {category}</div>
       <ChatContainer>
+        <div>
+          {suggestedQuestions?.map((q) => (
+            <p
+              key={q}
+              className="btnQuestions"
+              onClick={() => handleSendMessage(true, q)}>
+              {q}
+            </p>
+          ))}
+        </div>
         <div className="Typed">
           {messages.map((message, index) => (
             <MessageContainer key={index} className={message.role}>
@@ -126,6 +121,10 @@ const ChatComponent = () => {
             </MessageContainer>
           ))}
         </div>
+        <InputContainer>
+          <input type="text" value={input} onChange={handleInputChange} />
+          <button onClick={() => handleSendMessage(false, "")}>Send</button>
+        </InputContainer>
       </ChatContainer>
     </>
   );
