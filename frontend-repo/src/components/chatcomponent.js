@@ -65,7 +65,6 @@ const ChatComponent = ({ suggestedQuestions, category }) => {
 
   const handleSendMessage = async (isSuggestedQuestion, suggestedQuestion) => {
     // Make a request to the ChatGPT API with the user input
-    //   const apiKey = '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';
     const openai = new OpenAI({
       apiKey: process.env.REACT_APP_OPENAI_API_KEY,
       dangerouslyAllowBrowser: true,
