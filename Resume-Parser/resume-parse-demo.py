@@ -123,6 +123,6 @@ if __name__ == "__main__":
 
     print(response)
 
-    for attr in attributes: 
-        print("\n", attr, "\n", response[attr])
+    # for attr in attributes: 
+    #     print("\n", attr, "\n", response[attr])
     
