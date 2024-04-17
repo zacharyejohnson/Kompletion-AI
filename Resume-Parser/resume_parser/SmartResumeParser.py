@@ -27,19 +27,20 @@ class SmartResumeParser:
         self.openai_client = openai.OpenAI(api_key=API_KEY)
 
         # create assistant object via OpenAI's API 
-        self.parsing_assistant = self.openai_client.beta.assistants.create(
-                name="Resume JSON Parser", 
-                instructions="You are a resume parser. You will be given the text from a resume,\
-                        and a set of attributes to parse from the resume. \
-                        Your response should be only the attributes you have parsed from the resume in a \
-                        JSON format as so: {attribute_name: parsed_attribute_value} for each \
-                        attribute in the list of attributes. education should be in a nested json format with subfields specific to education (null if you cant find it, end_date current if they are not done): [degree, field_of_study, institution, gpa, location, start_date, end_date]\
-                              for each education listed. \experience should follow a similar nested format with fields(end_date = current if current): [job_title, company, start_date, end_date, details]. \
-                                  Your output MUST be able to be immediately converted to a json object. Dates should be in the form yyyy-mm-dd.\
-                                  an example output would be {\"fname\": *parsed_fname*, \"lname\": *parsed_lname*, \"email\": *parsed_email*, ..., \"education\": [{\"attr\": parsed_attr_val for val in list_given_earleir}], ... and so on }\
-                            Please prepare to recieve input in the form of raw resume text, and a list of attributes to be parsed.", 
-                model="gpt-3.5-turbo-1106",   
-        )
+        self.parsing_assistant = self.openai_client.beta.assistants.retrieve("asst_RzJ8pC5mkeSl47CUICbzxdj8")
+        # (
+        #         name="Resume JSON Parser", 
+        #         instructions="You are a resume parser. You will be given the text from a resume,\
+        #                 and a set of attributes to parse from the resume. \
+        #                 Your response should be only the attributes you have parsed from the resume in a \
+        #                 JSON format as so: {attribute_name: parsed_attribute_value} for each \
+        #                 attribute in the list of attributes. education should be in a nested json format with subfields specific to education (null if you cant find it, end_date current if they are not done): [degree, field_of_study, institution, gpa, location, start_date, end_date]\
+        #                       for each education listed. \experience should follow a similar nested format with fields(end_date = current if current): [job_title, company, start_date, end_date, details]. \
+        #                           Your output MUST be able to be immediately converted to a json object. Dates should be in the form yyyy-mm-dd.\
+        #                           an example output would be {\"fname\": *parsed_fname*, \"lname\": *parsed_lname*, \"email\": *parsed_email*, ..., \"education\": [{\"attr\": parsed_attr_val for val in list_given_earleir}], ... and so on }\
+        #                     Please prepare to recieve input in the form of raw resume text, and a list of attributes to be parsed.", 
+        #         model="gpt-3.5-turbo-1106",   
+        # )
         self.thread = self.openai_client.beta.threads.create()
 
         self.openai_connection_established = True

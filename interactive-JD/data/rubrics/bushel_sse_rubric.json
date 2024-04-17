@@ -1,0 +1,135 @@
+{
+    "rubric": [
+      {
+        "category": "Skills",
+        "weight": 30,
+        "levels": [
+          {
+            "score": 1,
+            "description": "The candidate has basic programming skills but lacks the depth in Java/Kotlin required for backend development."
+          },
+          {
+            "score": 2,
+            "description": "The candidate has moderate skills in Java or Kotlin but lacks experience with microservices and event-driven architectures."
+          },
+          {
+            "score": 3,
+            "description": "The candidate is proficient in Java and Kotlin, with some experience in microservices and event-driven systems."
+          },
+          {
+            "score": 4,
+            "description": "The candidate shows strong proficiency in Java/Kotlin, with proven skills in microservices, event-driven design, and message buses like RabbitMQ."
+          },
+          {
+            "score": 5,
+            "description": "The candidate demonstrates expert-level skills in Java/Kotlin and deep expertise in designing and implementing complex microservice architectures and advanced event-driven systems."
+          }
+        ]
+      },
+      {
+        "category": "Experience",
+        "weight": 30,
+        "levels": [
+          {
+            "score": 1,
+            "description": "Less than 3 years of software development experience, with minimal focus on backend systems."
+          },
+          {
+            "score": 2,
+            "description": "3-5 years of software development experience, including some backend development but limited exposure to distributed systems."
+          },
+          {
+            "score": 3,
+            "description": "5-7 years of backend development experience, including working with distributed systems and basic DevOps practices."
+          },
+          {
+            "score": 4,
+            "description": "7-10 years of in-depth backend development experience with comprehensive knowledge of distributed systems, CI/CD, and security best practices."
+          },
+          {
+            "score": 5,
+            "description": "Over 10 years of experience in backend development, leading projects that implement scalable microservices, sophisticated event-driven architectures, and ensuring robust security protocols."
+          }
+        ]
+      },
+      {
+        "category": "Qualifications",
+        "weight": 30,
+        "levels": [
+          {
+            "score": 1,
+            "description": "Holds an Associate degree in a related field, or self-taught with very limited project experience."
+          },
+          {
+            "score": 2,
+            "description": "Holds a Bachelor's degree in Computer Science or related fields, with some relevant project experience."
+          },
+          {
+            "score": 3,
+            "description": "Holds a Master’s degree in Computer Science or related fields, or a Bachelor’s with significant relevant professional certifications."
+          },
+          {
+            "score": 4,
+            "description": "Holds a Master’s degree along with additional certifications relevant to modern backend technologies and security practices."
+          },
+          {
+            "score": 5,
+            "description": "Holds a Doctorate in a relevant field or a Master’s degree with multiple high-level certifications and a strong record of continuing education in advanced computing topics."
+          }
+        ]
+      },
+      {
+        "category": "Company Fit",
+        "weight": 5,
+        "levels": [
+          {
+            "score": 1,
+            "description": "Shows minimal understanding or alignment with Bushel’s mission and values; limited team interaction."
+          },
+          {
+            "score": 2,
+            "description": "Shows basic understanding of the agricultural industry’s impact; somewhat aligns with the company’s mission."
+          },
+          {
+            "score": 3,
+            "description": "Good cultural fit; understands and respects Bushel’s mission and the importance of agriculture."
+          },
+          {
+            "score": 4,
+            "description": "Very good alignment with Bushel’s culture; demonstrates enthusiasm for revolutionizing the agriculture industry."
+          },
+          {
+            "score": 5,
+            "description": "Exceptional fit; deeply resonates with Bushel’s mission and values and shows potential as a cultural leader."
+          }
+        ]
+      },
+      {
+        "category": "Other",
+        "weight": 5,
+        "levels": [
+          {
+            "score": 1,
+            "description": "Lacks communication skills; minimal involvement in community or volunteer work."
+          },
+          {
+            "score": 2,
+            "description": "Basic communication skills; some community involvement."
+          },
+          {
+            "score": 3,
+            "description": "Good communication and interpersonal skills; active in community service."
+          },
+          {
+            "score": 4,
+            "description": "Very strong communicator; leadership roles in community or professional groups."
+          },
+          {
+            "score": 5,
+            "description": "Exceptional communicator with significant contributions to community or industry through leadership, publications, or speaking engagements."
+          }
+        ]
+      }
+    ]
+  }
+  

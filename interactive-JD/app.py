@@ -5,8 +5,7 @@ from PyPDF2 import PdfReader
 
 app = Flask(__name__)
 
-# Replace 'your_api_key_here' with your actual OpenAI API key
-openai.api_key = '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'
+
 
 jd_path = "interactive-JD\\data\\bushel_JD.txt"
 
