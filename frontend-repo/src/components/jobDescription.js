@@ -30,79 +30,17 @@ const JobDescription = ({ setSuggestedQuestions, setCategory }) => {
   const [selectedList, setSelectedList] = useState([]);
 
   useEffect(() => {
-    const jobOverviewItem = "How You'll Make An Impact";
-    const jobOverViewListArray = [
-      "Design, develop, and maintain scalable and high-performance backend systems utilizing distributed event driven service architecture.",
-      "Configure and manage message buses for efficient communication between distributed systems and services.",
-      "Expand and optimize existing access management and authentication systems to accommodate custom authorization flows and integrate with third party identity providers.",
-      "Evolve existing deployment pipelines to increase time to market capabilities.",
-      "Ensure the adoption and evolution of organizational security policies.",
-      "Implement appropriate code and system testing strategies.",
-      "Track and monitor progress through typical Agile processes.",
-      "Conduct code reviews, mentor junior developers, and contribute to a culture of continuous improvement.",
-      "Troubleshoot and resolve complex issues in collaboration withn operations and support teams.",
-      "Collaborate with product partners to provide technical prospective and realistic estimates in establishing team roadmaps.",
-      "Provide daily focus on security best practices to ensure data and code protections.",
-    ];
-    const aboutTheOrgItem = "Welcome To Bushel's Corner of the Internet";
-    const aboutTheOrgArray = [
-      "Why does Bushel exist? To ensure humanity and our planet have a secure and healthy future. Bushel believes agriculture is the most important industry on the planet. Agriculture’s physical infrastructure could be considered the greatest advancement in the grain industry in the last century. We believe the agriculture industry needs to build a complementary digital infrastructure - that’s where Bushel comes in.",
-      "Bushel builds software for the grain industry. Our mission is to connect the Grain Industry through digital infrastructure.",
-      "Today, we have the largest network of elevators and growers, connecting the most extensive data set in the industry. How have we done that? By offering real value to growers and grain companies through a digital set of tools.",
-      "Bushel is headquartered in Fargo, ND - one of the best places to live if you ask us! This position is remote eligible. See below for the list of eligible states.",
-    ];
+    const jobOverviewItem = "";
+    const jobOverViewListArray = [];
+    const aboutTheOrgItem = "";
+    const aboutTheOrgArray = [];
 
-    const jobRequirementsItem = "What Bushel Is Looking For";
-    const jobRequirementsArray = [
-      "Bachelor’s or Master’s degree in Computer Science or related field.",
-      "7+ years of proven experience as a Senior Software Engineer with a focus on backend systems.",
-      "Experience designing and implementing microservice architecture and associated best practices.",
-      "Understanding of event driven design strategies.",
-      "In-depth knowledge of message buses (e.g., Apache Pulsar, RabbitMQ) and experience in implementing and managing distributed messaging systems.",
-      "Familiarity with API development and scalability.",
-      "Expertise in developing and optimizing identity services, including authentication and authorization mechanisms.",
-      "Proficient in various programming languages with an emphasis on Java/Kotlin.",
-      "Experience with containerization technologies including Kubernetes.",
-      "Solid understanding of software development best practices, version control, and CI/CD pipelines.",
-      "Experience and knowledge of relational and noSQL database design and implementations.",
-      "Ability to implement performant data querying techniques.",
-      "Versed in various quality assurance strategies including system, functional, and unit testing.",
-      "Strong understanding of security best practices around access and exposure.",
-      "Effective problem solving skills, with the ability to analyze complex issues and provide effective solutions.",
-      "Excellent communication and collaboration skills.",
-    ];
-    const jobResponsibilitiesItem = "How You'll Make An Impact";
-    const jobResponsibilitiesArray = [
-      "Design, develop, and maintain scalable and high-performance backend systems utilizing distributed event driven service architecture.",
-      "Configure and manage message buses for efficient communication between distributed systems and services.",
-      "Expand and optimize existing access management and authentication systems to accommodate custom authorization flows and integrate with third party identity providers.",
-      "Evolve existing deployment pipelines to increase time to market capabilities.",
-      "Ensure the adoption and evolution of organizational security policies.",
-      "Implement appropriate code and system testing strategies.",
-      "Track and monitor progress through typical Agile processes.",
-      "Conduct code reviews, mentor junior developers, and contribute to a culture of continuous improvement.",
-      "Troubleshoot and resolve complex issues in collaboration with operations and support teams.",
-      "Collaborate with product partners to provide technical prospective and realistic estimates in establishing team roadmaps.",
-      "Provide daily focus on security best practices to ensure data and code protections.",
-    ];
-    const compensationItem = "Bushel Benefits";
-    const compensationArray = [
-      "$115,000.00 - $140,000.00 Salary/year",
-      "Optional Work from Home",
-      "Competitive BCBS Health Insurance with contribution to premium",
-      "Health Savings Account (HSA) with matching dollars",
-      "Flexible Spending Accounts",
-      "Dental and Vision Insurance",
-      "Hybrid work environment | Flexible working hours | Work-life balance",
-      "Basic Life Insurance and Short-Term Disability paid by Bushel",
-      "Additional Voluntary Life Insurance options and Long-Term Disability",
-      "Voluntary Accident Insurance and Critical Illness Insurance",
-      "Flexible (Unlimited) Paid Time Off, 9 Paid Holidays, and 1 Volunteer Day",
-      "Up to 12 weeks of Paid Parental Leave, including foster care and adoption",
-      "401(k) Retirement with 4% company match with immediate vesting",
-      "Employee Assistance Program and BetterHelp counseling services",
-      "Learning and development and internal mentorship opportunities",
-    ];
+    const jobRequirementsItem = "";
+    const jobRequirementsArray = [];
+    const jobResponsibilitiesItem = "";
+    const jobResponsibilitiesArray = [];
+    const compensationItem = "";
+    const compensationArray = [];
     setJobOverViewTitle(jobOverviewItem);
     setJobOverViewList(jobOverViewListArray);
     setAboutTheOrgTitle(aboutTheOrgItem);

@@ -62,9 +62,9 @@ Thumbs.db
 /build
 
 # misc
-/.env
 /IJD/.env
-.env
+/IJD/.env
+IJD/.env
 .DS_Store
 /frontend-repo/.env.local
 /frontend-repo/.env.development.local

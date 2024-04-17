@@ -1,5 +1,5 @@
 """
-Django settings for IJD project.
+Django settings for ijd project.
 
 """
 
@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    "IJD",
+    "ijd",
     "rest_framework", 
     "django.contrib.admin",
     "django.contrib.auth",
@@ -55,7 +55,7 @@ REST_FRAMEWORK = {"DEFAULT_PERMISSION_CLASSES": ["rest_framework.permissions.All
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-ROOT_URLCONF = "IJD.urls"
+ROOT_URLCONF = "ijd.urls"
 
 TEMPLATES = [
     {
@@ -73,7 +73,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "IJD.wsgi.application"
+WSGI_APPLICATION = "ijd.wsgi.application"
 
 
 # Database

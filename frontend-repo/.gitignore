@@ -63,7 +63,7 @@ Thumbs.db
 
 # misc
 **/.env*
-.env
+../IJD/.env
 .DS_Store
 frontend-repo/.env.local
 frontend-repo/.env.development.local

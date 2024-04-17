@@ -21,7 +21,6 @@ dist/
 
 # Maven
 target/
-dist/
 
 # JetBrains IDE
 .idea/
@@ -63,8 +62,8 @@ Thumbs.db
 
 # misc
 /.env
-/IJD/.env
-.env
+/.env
+../.env
 .DS_Store
 /frontend-repo/.env.local
 /frontend-repo/.env.development.local

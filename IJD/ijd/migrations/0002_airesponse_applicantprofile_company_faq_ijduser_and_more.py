@@ -9,7 +9,7 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
     dependencies = [
-        ("IJD", "0001_initial"),
+        ("ijd", "0001_initial"),
         ("auth", "0012_alter_user_first_name_max_length"),
     ]
 
@@ -256,7 +256,7 @@ class Migration(migrations.Migration):
                 (
                     "company",
                     models.ForeignKey(
-                        on_delete=django.db.models.deletion.CASCADE, to="IJD.company"
+                        on_delete=django.db.models.deletion.CASCADE, to="ijd.company"
                     ),
                 ),
             ],
@@ -281,7 +281,7 @@ class Migration(migrations.Migration):
                 (
                     "user",
                     models.ForeignKey(
-                        on_delete=django.db.models.deletion.CASCADE, to="IJD.ijduser"
+                        on_delete=django.db.models.deletion.CASCADE, to="ijd.ijduser"
                     ),
                 ),
             ],
@@ -303,13 +303,13 @@ class Migration(migrations.Migration):
                 (
                     "job",
                     models.ForeignKey(
-                        on_delete=django.db.models.deletion.CASCADE, to="IJD.jobposting"
+                        on_delete=django.db.models.deletion.CASCADE, to="ijd.jobposting"
                     ),
                 ),
                 (
                     "user",
                     models.ForeignKey(
-                        on_delete=django.db.models.deletion.CASCADE, to="IJD.ijduser"
+                        on_delete=django.db.models.deletion.CASCADE, to="ijd.ijduser"
                     ),
                 ),
             ],
@@ -321,35 +321,35 @@ class Migration(migrations.Migration):
             model_name="applicantprofile",
             name="user",
             field=models.ForeignKey(
-                on_delete=django.db.models.deletion.CASCADE, to="IJD.ijduser"
+                on_delete=django.db.models.deletion.CASCADE, to="ijd.ijduser"
             ),
         ),
         migrations.AddField(
             model_name="jobdetail",
             name="job",
             field=models.ForeignKey(
-                on_delete=django.db.models.deletion.CASCADE, to="IJD.jobposting"
+                on_delete=django.db.models.deletion.CASCADE, to="ijd.jobposting"
             ),
         ),
         migrations.AddField(
             model_name="image",
             name="job",
             field=models.ForeignKey(
-                on_delete=django.db.models.deletion.CASCADE, to="IJD.jobposting"
+                on_delete=django.db.models.deletion.CASCADE, to="ijd.jobposting"
             ),
         ),
         migrations.AddField(
             model_name="faq",
             name="job",
             field=models.ForeignKey(
-                on_delete=django.db.models.deletion.CASCADE, to="IJD.jobposting"
+                on_delete=django.db.models.deletion.CASCADE, to="ijd.jobposting"
             ),
         ),
         migrations.AddField(
             model_name="airesponse",
             name="question",
             field=models.ForeignKey(
-                on_delete=django.db.models.deletion.CASCADE, to="IJD.userquestion"
+                on_delete=django.db.models.deletion.CASCADE, to="ijd.userquestion"
             ),
         ),
     ]
